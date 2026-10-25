@@ -1,0 +1,16 @@
+{"type":"session","version":3,"id":"sess-main-0001","timestamp":"2026-10-01T00:00:00.000Z","cwd":"/Users/me/proj"}
+{"type":"message","id":"s0","parentId":null,"timestamp":"2026-10-01T00:00:01.000Z","message":{"role":"system","content":"","sections":{"preamble":"You are an expert coding assistant"},"timestamp":1790812801000}}
+{"type":"message","id":"u1","parentId":"s0","timestamp":"2026-10-01T00:00:02.000Z","message":{"role":"user","content":"Fix the login bug","timestamp":1790812802000}}
+{"type":"message","id":"a1","parentId":"u1","timestamp":"2026-10-01T00:00:03.000Z","message":{"role":"assistant","content":[{"type":"thinking","thinking":"Considering the auth flow"},{"type":"text","text":"Let me look"},{"type":"toolCall","id":"c1","name":"bash","arguments":{"command":"ls src"}}],"timestamp":1790812803000}}
+{"type":"message","id":"t1","parentId":"a1","timestamp":"2026-10-01T00:00:04.000Z","message":{"role":"toolResult","toolCallId":"c1","toolName":"bash","content":[{"type":"text","text":"login.ts"},{"type":"image","data":"iVBORw0KGgo=","mimeType":"image/png"}],"isError":false,"timestamp":1790812804000}}
+{"type":"message","id":"u2","parentId":"t1","timestamp":"2026-10-01T00:00:05.000Z","message":{"role":"user","content":[{"type":"text","text":"Try approach A"}],"timestamp":1790812805000}}
+{"type":"message","id":"a2","parentId":"u2","timestamp":"2026-10-01T00:00:06.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Approach A failed"}],"timestamp":1790812806000}}
+{"type":"branch_summary","id":"b1","parentId":"t1","timestamp":"2026-10-01T00:00:07.000Z","fromId":"a2","summary":"Tried approach A"}
+{"type":"message","id":"u3","parentId":"b1","timestamp":"2026-10-01T00:00:08.000Z","message":{"role":"user","content":"Try approach B","timestamp":1790812808000}}
+{"type":"custom_message","id":"c9","parentId":"u3","timestamp":"2026-10-01T00:00:09.000Z","customType":"ext","content":"Extension note","display":true}
+{"type":"message","id":"x1","parentId":"c9","timestamp":"2026-10-01T00:00:10.000Z","message":{"role":"bashExecution","command":"git status","output":"nothing to commit","exitCode":0,"timestamp":1790812810000}}
+{"type":"compaction","id":"cp","parentId":"x1","timestamp":"2026-10-01T00:00:11.000Z","summary":"Summary of work","firstKeptEntryId":"u3","tokensBefore":5000}
+{"type":"model_change","id":"mc","parentId":"cp","timestamp":"2026-10-01T00:00:11.500Z","provider":"openai","modelId":"gpt-4o"}
+{"type":"session_info","id":"si","parentId":"mc","timestamp":"2026-10-01T00:00:12.000Z","name":"Login fix"}
+{not json
+{"type":"message","id":"a3","parentId":"si","timestamp":"2026-10-01T00:00:13.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Approach B worked"}],"timestamp":1790812813000}}

@@ -1,0 +1,31 @@
+{"timestamp":"2026-10-01T00:00:00.000Z","type":"session_meta","payload":{"id":"019fa000-0000-7000-8000-00000000aaaa","timestamp":"2026-10-01T00:00:00.000Z","cwd":"/Users/me/proj","originator":"codex-tui","source":"cli","history_mode":"paginated"}}
+{"timestamp":"2026-10-01T00:00:00.000Z","type":"session_meta","payload":{"id":"019fa000-0000-7000-8000-parentparent","timestamp":"2026-09-30T00:00:00.000Z","cwd":"/Users/me/other"}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"event_msg","payload":{"type":"task_started","turn_id":"t1"}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"response_item","payload":{"type":"message","role":"developer","content":[{"type":"input_text","text":"<permissions instructions>\nsandbox"}]}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"# AGENTS.md instructions for /Users/me/proj\n\n<INSTRUCTIONS>\nBe nice\n</INSTRUCTIONS>"},{"type":"input_text","text":"<environment_context>\n  <cwd>/Users/me/proj</cwd>\n</environment_context>"}]}}
+{"timestamp":"2026-10-01T00:00:02.000Z","type":"turn_context","payload":{"turn_id":"t1","cwd":"/Users/me/proj","model":"gpt-5.5"}}
+{"timestamp":"2026-10-01T00:00:02.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Fix the login bug"}]}}
+{"timestamp":"2026-10-01T00:00:02.000Z","type":"event_msg","payload":{"type":"user_message","message":"Fix the login bug","images":[]}}
+{"timestamp":"2026-10-01T00:00:03.000Z","type":"response_item","payload":{"type":"reasoning","summary":[{"type":"summary_text","text":"**Looking at auth**"},{"type":"summary_text","text":"Then tests"}],"content":null,"encrypted_content":"gAAAA"}}
+{"timestamp":"2026-10-01T00:00:03.000Z","type":"response_item","payload":{"type":"reasoning","summary":[],"content":null,"encrypted_content":"gAAAB"}}
+{"timestamp":"2026-10-01T00:00:04.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Let me look"}]}}
+{"timestamp":"2026-10-01T00:00:04.000Z","type":"event_msg","payload":{"type":"agent_message","message":"Let me look","phase":"commentary"}}
+{"timestamp":"2026-10-01T00:00:05.000Z","type":"response_item","payload":{"type":"function_call","name":"exec_command","arguments":"{\"cmd\": \"ls src\",  \"workdir\":\"/Users/me/proj\"}","call_id":"c1"}}
+{"timestamp":"2026-10-01T00:00:05.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"c1","output":"login.ts\nauth.ts"}}
+{"timestamp":"2026-10-01T00:00:06.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","input":"*** Begin Patch\n*** End Patch","call_id":"c2","status":"completed"}}
+{"timestamp":"2026-10-01T00:00:06.000Z","type":"response_item","payload":{"type":"custom_tool_call_output","call_id":"c2","output":[{"type":"input_text","text":"Script completed"},{"type":"input_image","image_url":"data:image/png;base64,AAAA"},{"type":"input_text","text":"Done"}]}}
+{"timestamp":"2026-10-01T00:00:07.000Z","type":"response_item","payload":{"type":"local_shell_call","call_id":"c3","status":"completed","action":{"type":"exec","command":["bash","-lc","git status"]}}}
+{"timestamp":"2026-10-01T00:00:07.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"c3","output":"nothing to commit"}}
+{"timestamp":"2026-10-01T00:00:08.000Z","type":"response_item","payload":{"type":"web_search_call","status":"completed","action":{"type":"search","query":"codex session format","queries":["codex session format"]}}}
+{"timestamp":"2026-10-01T00:00:08.000Z","type":"event_msg","payload":{"type":"web_search_end","query":"codex session format"}}
+{"timestamp":"2026-10-01T00:00:09.000Z","type":"response_item","payload":{"type":"tool_search_call","call_id":"c4","arguments":{"query":"docs search"}}}
+{"timestamp":"2026-10-01T00:00:09.000Z","type":"response_item","payload":{"type":"tool_search_output","call_id":"c4","tools":[{"type":"namespace","name":"mcp__docs","description":"long","tools":[{"type":"function","name":"search_docs"},{"type":"function","name":"fetch_doc"}]}]}}
+{"timestamp":"2026-10-01T00:00:10.000Z","type":"response_item","payload":{"type":"agent_message","author":"/root","recipient":"/root/x","content":[{"type":"input_text","text":"Message Type: NEW_TASK\n"},{"type":"encrypted_content","encrypted_content":"gAAAC"}]}}
+{"timestamp":"2026-10-01T00:00:11.000Z","type":"response_item","payload":{"type":"compaction","encrypted_content":"gAAAD"}}
+{"timestamp":"2026-10-01T00:00:11.000Z","type":"compacted","payload":{"message":"","replacement_history":[{"type":"message","role":"user","content":[{"type":"input_text","text":"Fix the login bug"}]}]}}
+{"timestamp":"2026-10-01T00:00:12.000Z","type":"compacted","payload":{"message":"Summary of earlier work","replacement_history":[{"type":"message","role":"user","content":[{"type":"input_text","text":"Fix the login bug"}]}]}}
+{"timestamp":"2026-10-01T00:00:13.000Z","type":"event_msg","payload":{"type":"thread_settings_applied","thread_settings":{"model":"gpt-5.5"}}}
+{"timestamp":"2026-10-01T00:00:14.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"[$review](/Users/me/.codex/skills/review/SKILL.md) \n"}]}}
+{"timestamp":"2026-10-01T00:00:14.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"<skill>\n<name>review</name>\nbody\n</skill>"}]}}
+{"timestamp":"2026-10-01T00:00:15.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_image","image_url":"data:image/png;base64,AAAA"},{"type":"input_text","text":"What is in this picture?"}]}}
+{"timestamp":"2026-10-01T00:00:16.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"A cat"}]}}

@@ -1,0 +1,4 @@
+{"timestamp":"2026-10-01T00:00:00.000Z","type":"session_meta","payload":{"id":"019f0000-0000-7000-8000-00000000ffff","timestamp":"2026-10-01T00:00:00.000Z","cwd":"/Users/me/proj"}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"event_msg","payload":{"type":"task_started","turn_id":"e1"}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"response_item","payload":{"type":"message","role":"developer","content":[{"type":"input_text","text":"<permissions instructions>"}]}}
+{"timestamp":"2026-10-01T00:00:02.000Z","type":"event_msg","payload":{"type":"token_count","info":null}}

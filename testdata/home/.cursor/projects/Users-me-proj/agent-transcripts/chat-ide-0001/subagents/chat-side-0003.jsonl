@@ -1,0 +1,4 @@
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 11:01 AM (UTC+8)</timestamp>\n<user_query>\nFix the login bug\n</user_query>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "Let me look"}]}}
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 11:20 AM (UTC+8)</timestamp>\n<side_chat_boundary>\nSide chat boundary.\n</side_chat_boundary>\n</system_reminder>\n<timestamp>Friday, Oct 23, 2026, 11:20 AM (UTC+8)</timestamp>\n<user_query>\nwhy that file?\n</user_query>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "Because"}, {"type": "tool_use", "name": "Glob", "input": {"glob_pattern": "*.ts"}}]}}

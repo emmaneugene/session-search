@@ -1,0 +1,2 @@
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 11:01 AM (UTC+8)</timestamp>\n<user_info>\nOS: darwin\n</user_info>\n<user_query>\nFix the login bug\n</user_query>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "Let me look"}, {"type": "tool_use", "name": "Shell", "input": {"command": "ls src"}}]}}

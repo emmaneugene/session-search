@@ -1,0 +1,4 @@
+bin/
+tmp/
+# Questions and scorecards about the author's own sessions.
+eval/

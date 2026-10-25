@@ -1,0 +1,2 @@
+{"type":"session","version":3,"id":"sess-sub-0002","timestamp":"2026-10-01T01:00:00.000Z","cwd":"/Users/me/proj"}
+{"type":"message","id":"u1","parentId":null,"timestamp":"2026-10-01T01:00:01.000Z","message":{"role":"user","content":"Review the login change and report problems with session cookies in a long sentence that goes past eighty characters","timestamp":1790816401000}}

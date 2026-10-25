@@ -1,0 +1,4 @@
+{"timestamp":"2026-10-01T00:00:00.000Z","type":"session_meta","payload":{"id":"019f0000-0000-7000-8000-00000000dddd","timestamp":"2026-10-01T00:00:00.000Z","cwd":"/Users/me/proj","thread_source":"guardian_review"}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"turn_context","payload":{"turn_id":"r1","model":"codex-auto-review"}}
+{"timestamp":"2026-10-01T00:00:01.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Review this command: rm -rf x"}]}}
+{"timestamp":"2026-10-01T00:00:02.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"{\"risk\":\"high\"}"}]}}

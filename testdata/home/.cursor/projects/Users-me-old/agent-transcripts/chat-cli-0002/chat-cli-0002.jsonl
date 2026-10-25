@@ -1,0 +1,4 @@
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 11:01 AM (UTC+5:30)</timestamp>\n<user_query>\nList the files\n</user_query>"}]}}
+{"role": "assistant", "message": {"content": "plain string reply"}}
+{"role": "assistant", "message": {"content": [{"type": "tool_use", "name": "Shell", "input": {"command": "ls"}}]}}
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 1:15 PM (UTC+5:30)</timestamp>\n<user_query>\nthanks\n</user_query>"}]}}

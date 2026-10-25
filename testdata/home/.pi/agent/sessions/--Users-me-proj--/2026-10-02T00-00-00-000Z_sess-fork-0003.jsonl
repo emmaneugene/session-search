@@ -1,0 +1,2 @@
+{"type":"session","version":3,"id":"sess-fork-0003","timestamp":"2026-10-02T00:00:00.000Z","cwd":"/Users/me/proj","parentSession":"/Users/me/.pi/agent/sessions/--Users-me-proj--/2026-10-01T00-00-00-000Z_sess-main-0001.jsonl"}
+{"type":"message","id":"u1","parentId":null,"timestamp":"2026-10-02T00:00:01.000Z","message":{"role":"user","content":"Continue from the fork","timestamp":1790899201000}}

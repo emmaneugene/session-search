@@ -1,0 +1,2 @@
+{"type":"file-history-snapshot","messageId":"e1","snapshot":{}}
+{"parentUuid":null,"isSidechain":false,"type":"user","uuid":"e1","timestamp":"2026-10-01T00:00:51.000Z","sessionId":"sess-empty-0003","cwd":"/Users/me/proj","message":{"role":"user","content":"<local-command-stdout>Bye</local-command-stdout>"}}

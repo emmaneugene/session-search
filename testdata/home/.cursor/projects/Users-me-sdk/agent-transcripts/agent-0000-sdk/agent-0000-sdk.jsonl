@@ -1,0 +1,2 @@
+{"role": "user", "message": {"content": [{"type": "text", "text": "<identity>\nYou are a coding assistant.\n</identity>\n<user_query>\nReplayed Pi turn\n</user_query>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "ok"}]}}

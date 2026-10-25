@@ -1,0 +1,11 @@
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 11:01 AM (UTC+8)</timestamp>\n<user_info>\nOS: darwin\n</user_info>\n<user_query>\nFix the login bug\n</user_query>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "Let me look"}, {"type": "tool_use", "name": "Shell", "input": {"command": "ls src"}}]}}
+{"role": "assistant", "message": {"content": [{"type": "tool_use", "name": "Read", "input": {"path": "a.ts"}}, {"type": "tool_use", "name": "Grep", "input": {"pattern": "login"}}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "Found it"}]}}
+{"type": "turn_ended", "status": "success"}
+{"role":"assistant","message":
+{"role": "user", "message": {"content": [{"type": "text", "text": "[Image]\n<timestamp>Friday, Oct 23, 2026, 11:05 AM (UTC+8)</timestamp>\n<user_query>\nnow commit\n</user_query>\n<manually_attached_skills>\nSkill body\n</manually_attached_skills>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "tool_use", "name": "StrReplace", "input": {"path": "a.ts", "old_string": "a", "new_string": "b"}}, {"type": "tool_use", "name": "Shell", "input": {"command": "git status"}}, {"type": "tool_use", "name": "Shell", "input": {"command": "git commit"}}]}}
+{"role": "user", "message": {"content": [{"type": "text", "text": "<timestamp>Friday, Oct 23, 2026, 11:09 AM (UTC+8)</timestamp>\n\n<user_query>Briefly inform the user about the task result</user_query>"}]}}
+{"role": "assistant", "message": {"content": [{"type": "text", "text": "Done"}]}}
+{"type": "turn_ended", "status": "success"}

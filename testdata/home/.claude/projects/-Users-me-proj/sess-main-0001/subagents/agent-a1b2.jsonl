@@ -1,0 +1,2 @@
+{"parentUuid":null,"isSidechain":true,"type":"user","uuid":"s1","timestamp":"2026-10-01T00:00:31.000Z","sessionId":"sess-main-0001","cwd":"/Users/me/proj","message":{"role":"user","content":"Check the docs"},"agentId":"a1b2"}
+{"parentUuid":"s1","isSidechain":true,"type":"assistant","uuid":"s2","timestamp":"2026-10-01T00:00:32.000Z","sessionId":"sess-main-0001","cwd":"/Users/me/proj","message":{"role":"assistant","id":"sm1","model":"claude-x","content":[{"type":"text","text":"Docs look fine"}]},"agentId":"a1b2"}
